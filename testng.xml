@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.maven.testng3.CTest3"/>
+      <class name="com.maven.testng.AppTest"/>
+      <class name="com.maven.testng2.BBTest2"/>
+      <class name="com.maven.testng1.ATest1"/>
+      <class name="com.maven.testng3.CCTest3"/>
+      <class name="com.maven.testng2.AATest2"/>
+      <class name="com.maven.testng1.BTest1"/>
+    </classes>
+  </test> <!-- Test -->
+ <test thread-count="1" name="Test1">
+    <classes>
+      <class name="com.maven.testng3.CTest3"/>
+      <class name="com.maven.testng3.CCTest3"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+</suite> <!-- Suite -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [TestNG by groups]">
+  <test name="GRP-aa(failed)">
+    <groups>
+      <run>
+        <include name="aa"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.maven.testng1.ATest1">
+        <methods>
+          <include name="aTest1"/>
+        </methods>
+      </class> <!-- com.maven.testng1.ATest1 -->
+    </classes>
+  </test> <!-- GRP-aa(failed) -->
+</suite> <!-- Failed suite [TestNG by groups] -->

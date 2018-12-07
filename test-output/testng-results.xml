@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="1" ignored="1" total="45" passed="41">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5440" started-at="2018-12-07T10:01:14Z" finished-at="2018-12-07T10:01:19Z">
+    <groups>
+      <group name="aa">
+        <method signature="ATest1.aTest1()[pri:0, instance:com.maven.testng1.ATest1@36d4b5c]" name="aTest1" class="com.maven.testng1.ATest1"/>
+        <method signature="BTest1.bTest2()[pri:1, instance:com.maven.testng1.BTest1@5034c75a]" name="bTest2" class="com.maven.testng1.BTest1"/>
+        <method signature="BTest1.bTest4()[pri:0, instance:com.maven.testng1.BTest1@5034c75a]" name="bTest4" class="com.maven.testng1.BTest1"/>
+      </group> <!-- aa -->
+      <group name="bb">
+        <method signature="ATest1.aTest1()[pri:0, instance:com.maven.testng1.ATest1@36d4b5c]" name="aTest1" class="com.maven.testng1.ATest1"/>
+        <method signature="BTest1.bTest4()[pri:0, instance:com.maven.testng1.BTest1@5034c75a]" name="bTest4" class="com.maven.testng1.BTest1"/>
+      </group> <!-- bb -->
+      <group name="cc">
+        <method signature="ATest1.aTest1()[pri:0, instance:com.maven.testng1.ATest1@36d4b5c]" name="aTest1" class="com.maven.testng1.ATest1"/>
+      </group> <!-- cc -->
+    </groups>
+    <test name="Test" duration-ms="5252" started-at="2018-12-07T10:01:14Z" finished-at="2018-12-07T10:01:19Z">
+      <class name="com.maven.testng2.AATest2">
+        <test-method status="PASS" signature="aaTest1()[pri:0, instance:com.maven.testng2.AATest2@7f9a81e8]" name="aaTest1" duration-ms="1" started-at="2018-12-07T02:01:14Z" finished-at="2018-12-07T02:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaTest1 -->
+        <test-method status="PASS" signature="aaTest2()[pri:0, instance:com.maven.testng2.AATest2@7f9a81e8]" name="aaTest2" duration-ms="2" started-at="2018-12-07T02:01:14Z" finished-at="2018-12-07T02:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaTest2 -->
+        <test-method status="PASS" signature="aaTest3()[pri:0, instance:com.maven.testng2.AATest2@7f9a81e8]" name="aaTest3" duration-ms="1" started-at="2018-12-07T02:01:14Z" finished-at="2018-12-07T02:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaTest3 -->
+        <test-method status="PASS" signature="aaTest4()[pri:0, instance:com.maven.testng2.AATest2@7f9a81e8]" name="aaTest4" duration-ms="3" started-at="2018-12-07T02:01:14Z" finished-at="2018-12-07T02:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaTest4 -->
+      </class> <!-- com.maven.testng2.AATest2 -->
+      <class name="com.maven.testng1.ATest1">
+        <test-method status="PASS" signature="aTest1()[pri:0, instance:com.maven.testng1.ATest1@36d4b5c]" name="aTest1" duration-ms="3" started-at="2018-12-07T02:01:14Z" finished-at="2018-12-07T02:01:14Z">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zeroat com.maven.testng1.ATest1.aTest1(ATest1.java:12)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aTest1 -->
+        <test-method status="SKIP" signature="aTest3()[pri:0, instance:com.maven.testng1.ATest1@36d4b5c]" name="aTest3" duration-ms="0" depends-on-groups="aa" started-at="2018-12-07T02:01:19Z" finished-at="2018-12-07T02:01:19Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ATest1.aTest3()[pri:0, instance:com.maven.testng1.ATest1@36d4b5c] depends on not successfully finished methods in group "aa"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ATest1.aTest3()[pri:0, instance:com.maven.testng1.ATest1@36d4b5c] depends on not successfully finished methods in group "aa"at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:878)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aTest3 -->
+        <test-method status="SKIP" signature="aTest2()[pri:0, instance:com.maven.testng1.ATest1@36d4b5c]" name="aTest2" duration-ms="0" started-at="2018-12-07T02:01:19Z" depends-on-methods="com.maven.testng1.ATest1.aTest3" finished-at="2018-12-07T02:01:19Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ATest1.aTest2()[pri:0, instance:com.maven.testng1.ATest1@36d4b5c] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ATest1.aTest2()[pri:0, instance:com.maven.testng1.ATest1@36d4b5c] depends on not successfully finished methodsat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:878)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aTest2 -->
+        <test-method status="PASS" signature="aTest4()[pri:0, instance:com.maven.testng1.ATest1@36d4b5c]" name="aTest4" duration-ms="2" started-at="2018-12-07T02:01:19Z" depends-on-methods="com.maven.testng1.ATest1.aTest3" finished-at="2018-12-07T02:01:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aTest4 -->
+      </class> <!-- com.maven.testng1.ATest1 -->
+      <class name="com.maven.testng3.CTest3">
+        <test-method status="PASS" signature="cTest1()[pri:0, instance:com.maven.testng3.CTest3@100fc185]" name="cTest1" duration-ms="17" started-at="2018-12-07T02:01:14Z" finished-at="2018-12-07T02:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cTest1 -->
+        <test-method status="PASS" signature="cTest2()[pri:0, instance:com.maven.testng3.CTest3@100fc185]" name="cTest2" duration-ms="3" started-at="2018-12-07T02:01:14Z" finished-at="2018-12-07T02:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cTest2 -->
+        <test-method status="PASS" signature="cTest3()[pri:0, instance:com.maven.testng3.CTest3@100fc185]" name="cTest3" duration-ms="2" started-at="2018-12-07T02:01:14Z" finished-at="2018-12-07T02:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cTest3 -->
+        <test-method status="PASS" signature="cTest4()[pri:0, instance:com.maven.testng3.CTest3@100fc185]" name="cTest4" duration-ms="2" started-at="2018-12-07T02:01:14Z" finished-at="2018-12-07T02:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cTest4 -->
+      </class> <!-- com.maven.testng3.CTest3 -->
+      <class name="com.maven.testng2.BBTest2">
+        <test-method status="PASS" signature="bbTest21()[pri:0, instance:com.maven.testng2.BBTest2@2ef5e5e3]" name="bbTest21" duration-ms="2" started-at="2018-12-07T02:01:14Z" finished-at="2018-12-07T02:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bbTest21 -->
+        <test-method status="PASS" signature="bbTest22()[pri:0, instance:com.maven.testng2.BBTest2@2ef5e5e3]" name="bbTest22" duration-ms="1" started-at="2018-12-07T02:01:14Z" finished-at="2018-12-07T02:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bbTest22 -->
+        <test-method status="PASS" signature="bbTest23()[pri:0, instance:com.maven.testng2.BBTest2@2ef5e5e3]" name="bbTest23" duration-ms="2" started-at="2018-12-07T02:01:14Z" finished-at="2018-12-07T02:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bbTest23 -->
+        <test-method status="PASS" signature="bbTest24()[pri:0, instance:com.maven.testng2.BBTest2@2ef5e5e3]" name="bbTest24" duration-ms="8" started-at="2018-12-07T02:01:14Z" finished-at="2018-12-07T02:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bbTest24 -->
+      </class> <!-- com.maven.testng2.BBTest2 -->
+      <class name="com.maven.testng3.CCTest3">
+        <test-method status="PASS" signature="cTest1()[pri:0, instance:com.maven.testng3.CCTest3@51081592]" name="cTest1" duration-ms="1" started-at="2018-12-07T02:01:14Z" finished-at="2018-12-07T02:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cTest1 -->
+        <test-method status="PASS" signature="cTest2()[pri:0, instance:com.maven.testng3.CCTest3@51081592]" name="cTest2" duration-ms="1" started-at="2018-12-07T02:01:14Z" finished-at="2018-12-07T02:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cTest2 -->
+        <test-method status="PASS" signature="cTest3()[pri:0, instance:com.maven.testng3.CCTest3@51081592]" name="cTest3" duration-ms="2" started-at="2018-12-07T02:01:14Z" finished-at="2018-12-07T02:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cTest3 -->
+        <test-method status="PASS" signature="cTest4()[pri:0, instance:com.maven.testng3.CCTest3@51081592]" name="cTest4" duration-ms="3" started-at="2018-12-07T02:01:14Z" finished-at="2018-12-07T02:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cTest4 -->
+      </class> <!-- com.maven.testng3.CCTest3 -->
+      <class name="com.maven.testng.AppTest">
+        <test-method status="PASS" signature="verifyUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.maven.testng.AppTest@643b1d11]" name="verifyUser" duration-ms="7" started-at="2018-12-07T02:01:14Z" data-provider="getData" finished-at="2018-12-07T02:01:14Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kskjfd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Null Username]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+        <test-method status="PASS" signature="verifyUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.maven.testng.AppTest@643b1d11]" name="verifyUser" duration-ms="1" started-at="2018-12-07T02:01:14Z" data-provider="getData" finished-at="2018-12-07T02:01:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[#23ksjddf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Null Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+        <test-method status="PASS" signature="verifyUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.maven.testng.AppTest@643b1d11]" name="verifyUser" duration-ms="2" started-at="2018-12-07T02:01:14Z" data-provider="getData" finished-at="2018-12-07T02:01:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dfds]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Empty Username]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+        <test-method status="PASS" signature="verifyUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.maven.testng.AppTest@643b1d11]" name="verifyUser" duration-ms="2" started-at="2018-12-07T02:01:14Z" data-provider="getData" finished-at="2018-12-07T02:01:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kishor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Empty Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+        <test-method status="PASS" signature="verifyUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.maven.testng.AppTest@643b1d11]" name="verifyUser" duration-ms="2" started-at="2018-12-07T02:01:14Z" data-provider="getData" finished-at="2018-12-07T02:01:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kishor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kishor#23]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid Username and Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+        <test-method status="PASS" signature="verifyUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.maven.testng.AppTest@643b1d11]" name="verifyUser" duration-ms="1" started-at="2018-12-07T02:01:14Z" data-provider="getData" finished-at="2018-12-07T02:01:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kishor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kishor12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Login_Sucessfull]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+      </class> <!-- com.maven.testng.AppTest -->
+      <class name="com.maven.testng1.BTest1">
+        <test-method status="PASS" signature="bTest3()[pri:0, instance:com.maven.testng1.BTest1@5034c75a]" name="bTest3" is-config="true" duration-ms="1" started-at="2018-12-07T02:01:14Z" finished-at="2018-12-07T02:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bTest3 -->
+        <test-method status="PASS" signature="bTest3()[pri:0, instance:com.maven.testng1.BTest1@5034c75a]" name="bTest3" duration-ms="5" started-at="2018-12-07T02:01:14Z" finished-at="2018-12-07T02:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bTest3 -->
+        <test-method status="PASS" signature="bTest3()[pri:0, instance:com.maven.testng1.BTest1@5034c75a]" name="bTest3" duration-ms="1" started-at="2018-12-07T02:01:14Z" finished-at="2018-12-07T02:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bTest3 -->
+        <test-method status="PASS" signature="bTest3()[pri:0, instance:com.maven.testng1.BTest1@5034c75a]" name="bTest3" duration-ms="2" started-at="2018-12-07T02:01:14Z" finished-at="2018-12-07T02:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bTest3 -->
+        <test-method status="PASS" signature="bTest3()[pri:0, instance:com.maven.testng1.BTest1@5034c75a]" name="bTest3" duration-ms="1" started-at="2018-12-07T02:01:14Z" finished-at="2018-12-07T02:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bTest3 -->
+        <test-method status="PASS" signature="bTest3()[pri:0, instance:com.maven.testng1.BTest1@5034c75a]" name="bTest3" duration-ms="2" started-at="2018-12-07T02:01:14Z" finished-at="2018-12-07T02:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bTest3 -->
+        <test-method status="PASS" signature="bTest3()[pri:0, instance:com.maven.testng1.BTest1@5034c75a]" name="bTest3" duration-ms="1" started-at="2018-12-07T02:01:14Z" finished-at="2018-12-07T02:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bTest3 -->
+        <test-method status="PASS" signature="bTest3()[pri:0, instance:com.maven.testng1.BTest1@5034c75a]" name="bTest3" duration-ms="1" started-at="2018-12-07T02:01:14Z" finished-at="2018-12-07T02:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bTest3 -->
+        <test-method status="PASS" signature="bTest3()[pri:0, instance:com.maven.testng1.BTest1@5034c75a]" name="bTest3" duration-ms="1" started-at="2018-12-07T02:01:14Z" finished-at="2018-12-07T02:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bTest3 -->
+        <test-method status="PASS" signature="bTest4()[pri:0, instance:com.maven.testng1.BTest1@5034c75a]" name="bTest4" duration-ms="4" started-at="2018-12-07T02:01:14Z" finished-at="2018-12-07T02:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bTest4 -->
+        <test-method status="FAIL" signature="bTest2()[pri:1, instance:com.maven.testng1.BTest1@5034c75a]" name="bTest2" duration-ms="5027" started-at="2018-12-07T02:01:14Z" finished-at="2018-12-07T02:01:19Z">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method com.maven.testng1.BTest1.bTest2() didn't finish within the time-out 5000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method com.maven.testng1.BTest1.bTest2() didn't finish within the time-out 5000at java.lang.ThreadGroup.remove(Unknown Source)at java.lang.ThreadGroup.threadTerminated(Unknown Source)at java.lang.Thread.exit(Unknown Source)]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bTest2 -->
+      </class> <!-- com.maven.testng1.BTest1 -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="27" started-at="2018-12-07T10:01:19Z" finished-at="2018-12-07T10:01:19Z">
+      <class name="com.maven.testng3.CTest3">
+        <test-method status="PASS" signature="cTest1()[pri:0, instance:com.maven.testng3.CTest3@26be92ad]" name="cTest1" duration-ms="2" started-at="2018-12-07T02:01:19Z" finished-at="2018-12-07T02:01:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cTest1 -->
+        <test-method status="PASS" signature="cTest2()[pri:0, instance:com.maven.testng3.CTest3@26be92ad]" name="cTest2" duration-ms="1" started-at="2018-12-07T02:01:19Z" finished-at="2018-12-07T02:01:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cTest2 -->
+        <test-method status="PASS" signature="cTest3()[pri:0, instance:com.maven.testng3.CTest3@26be92ad]" name="cTest3" duration-ms="0" started-at="2018-12-07T02:01:19Z" finished-at="2018-12-07T02:01:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cTest3 -->
+        <test-method status="PASS" signature="cTest4()[pri:0, instance:com.maven.testng3.CTest3@26be92ad]" name="cTest4" duration-ms="1" started-at="2018-12-07T02:01:19Z" finished-at="2018-12-07T02:01:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cTest4 -->
+      </class> <!-- com.maven.testng3.CTest3 -->
+      <class name="com.maven.testng3.CCTest3">
+        <test-method status="PASS" signature="cTest1()[pri:0, instance:com.maven.testng3.CCTest3@4c70fda8]" name="cTest1" duration-ms="1" started-at="2018-12-07T02:01:19Z" finished-at="2018-12-07T02:01:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cTest1 -->
+        <test-method status="PASS" signature="cTest2()[pri:0, instance:com.maven.testng3.CCTest3@4c70fda8]" name="cTest2" duration-ms="2" started-at="2018-12-07T02:01:19Z" finished-at="2018-12-07T02:01:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cTest2 -->
+        <test-method status="PASS" signature="cTest3()[pri:0, instance:com.maven.testng3.CCTest3@4c70fda8]" name="cTest3" duration-ms="3" started-at="2018-12-07T02:01:19Z" finished-at="2018-12-07T02:01:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cTest3 -->
+        <test-method status="PASS" signature="cTest4()[pri:0, instance:com.maven.testng3.CCTest3@4c70fda8]" name="cTest4" duration-ms="2" started-at="2018-12-07T02:01:19Z" finished-at="2018-12-07T02:01:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cTest4 -->
+      </class> <!-- com.maven.testng3.CCTest3 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
